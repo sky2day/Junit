@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Junit 1.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\Junit\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Junit ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Junit ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Workspace\Junit\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Junit ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Junit ---
+[INFO] Surefire report directory: C:\Workspace\Junit\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running core.AppTest
+BeforeClass method will be executed before first test method starts
+Before method will execute before every test method
+Test_02_assertEquals_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_07_assertFalse_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_04_AssertSame_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_09_assertTrue_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_05_AssertSame_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_10_assertTrue_Negative
+After method will execute after every test method
+Before method will execute before every test method
+Test_01_assertEquals_Positive
+After method will execute after every test method
+Before method will execute before every test method
+Test_08_assertFalse_Negative
+After method will execute after every test method
+AfterClass method will be executed after last test method completed
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.065 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.383 s
+[INFO] Finished at: 2016-03-22T20:50:08-07:00
+[INFO] Final Memory: 7M/19M
+[INFO] ------------------------------------------------------------------------
